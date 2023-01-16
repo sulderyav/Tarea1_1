@@ -1,0 +1,35 @@
+const firstName = "Carlitos";  // Ejercicio 2//
+const lastName = "Vallejo";
+const itiUsername = "carlos.vallejo";
+const age = 25;
+const email = "sulderyarellano18@gmail.com";
+const isAdult = true;
+const savings = 300.2;
+const debts = 200;  
+
+const fullName = firstName + " " + lastName //Ejercicio 3//
+const fullName2 = `${firstName} ${lastName}`
+console.log(fullName)
+console.log(fullName2)
+
+
+const realMoney = savings - debts // Ejercicio 3// 
+console.log(realMoney)
+
+//Ejercicio 4 //
+function printNameAndNickName(name, lastName, nickname ) {  
+    const completeName = `${name} ${lastName}`
+    console.log(`Mi nombre es ${completeName}, pero prefiero que me llamen ${nickname}`)
+} 
+printNameAndNickName("Juanito", "Carrasco", "Juanchis")
+ // Ejercicio 6//
+const tipoDeMatricula = "Basic";
+if (tipoDeMatricula === "Free") {
+ console.log("Solo puedes tomar los cursos gratis");
+} else if (tipoDeMatricula === "Basic") {
+ console.log("Puedes tomar casi todos los cursos de ITI durante un mes");
+} else if (tipoDeMatricula === "Expert") {
+ console.log("Puedes tomar casi todos los cursos de ITI durante un año");
+} else if (tipoDeMatricula === "ExpertPlus") {
+ console.log("Tú y alguien más pueden tomar TODOS los cursos de ITI durante un año");
+}
